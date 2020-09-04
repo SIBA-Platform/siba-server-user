@@ -120,6 +120,8 @@ fabric.properties
 
 # Package Files #
 *.jar
+!gradle/wrapper/gradle-wrapper.jar #gradle-wrapper.jar은 포함
+
 *.war
 *.nar
 *.ear
