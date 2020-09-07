@@ -1,0 +1,5 @@
+
+# 테스트 환경에서 적용 시킬 프로파일
+spring:
+  profiles:
+    include: database
