@@ -11,6 +11,7 @@ EXPOSE 8080
 #환경변수 추가
 ARG JAR_FILE=build/libs/*.jar
 
+#server-user.jar로 COPY
 COPY ${JAR_FILE} server-user.jar
 
 ENTRYPOINT ["java","-jar","/server-user.jar"]
