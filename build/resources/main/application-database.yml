@@ -1,0 +1,8 @@
+
+# 테스트 환경과 프로덕션 환경에서 사용할 데이터베이스 관련 프로파일
+spring:
+#  datasource:
+#    url:
+#    username:
+#    password:
+#    driver-class-name:

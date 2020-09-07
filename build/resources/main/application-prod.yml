@@ -1,0 +1,5 @@
+
+# 프로덕션 환경에서 적용시킬 프로파일
+spring:
+  profiles:
+    include: database

@@ -1,0 +1,19 @@
+
+# 개발 환경에서 적용시킬 프로파일
+spring:
+  h2:
+    console:
+      enabled: true          # 웹 콘솔 사용
+      path: /h2-siba-console # 웹 콘솔 접속 경로
+
+  datasource:
+    url: jdbc:h2:mem:siba   # http://www.h2database.com/html/features.html#connection_modes
+    driver-class-name: org.h2.Driver
+    username: siba
+    password: siba
+    #data: classpath:h2.sql 애플리케이션 구동 시 실행시킬 스크립트
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none # 테이블 자동 생성 X
