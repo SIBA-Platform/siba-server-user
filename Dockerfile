@@ -11,7 +11,7 @@ VOLUME /tmp
 EXPOSE 8080
 
 #환경변수 추가
-ARG JAR_FILE=build/libs/server-user-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=build/libs/*.jar
 
 COPY ${JAR_FILE} server-user.jar
 
